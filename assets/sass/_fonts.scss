@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+/* D2Coding */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'D2Coding';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../../static/fonts/D2Coding/D2Coding.eot); /* IE9 Compat Modes */
+  src: url(../../static/fonts/D2Coding/D2Coding.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */
+       url(../../static/fonts/D2Coding/D2Coding.woff2) format('woff2'), /* Super Modern Browsers */
+       url(../../static/fonts/D2Coding/D2Coding.woff) format('woff'), /* Modern Browsers */
+       url(../../static/fonts/D2Coding/D2Coding.ttf) format('truetype'), /* Safari, Android, iOS */
+       url(../../static/fonts/D2Coding/D2Coding.svg) format('svg'); /* Legacy iOS */
+}
+
+/* D2Coding Bold */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'D2Coding';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../../static/fonts/D2Coding/D2CodingBold.eot); /* IE9 Compat Modes */
+  src: url(../../static/fonts/D2Coding/D2CodingBold.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */
+       url(../../static/fonts/D2Coding/D2CodingBold.woff2) format('woff2'), /* Super Modern Browsers */
+       url(../../static/fonts/D2Coding/D2CodingBold.woff) format('woff'), /* Modern Browsers */
+       url(../../static/fonts/D2Coding/D2CodingBold.ttf) format('truetype'), /* Safari, Android, iOS */
+       url(../../static/fonts/D2Coding/D2CodingBold.svg) format('svg'); /* Legacy iOS */
+}
