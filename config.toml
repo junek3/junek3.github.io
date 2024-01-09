@@ -1,4 +1,4 @@
-title = "RootLab"
+title = "Nirvana"
 baseURL = 'https://junek3.github.io/'
 languageCode = 'ko-kr'
 theme = "hugo-blog-awesome"
@@ -51,13 +51,18 @@ disqusShortname = ''
     url = '/posts/'
     weight = 20
   [[Languages.ko-kr.menu.main]]
+    pageRef="essay"
+    name = 'Essay'
+    url = '/essay/'
+    weight = 30
+  [[Languages.ko-kr.menu.main]]
     pageRef="about"
     name = 'About'
     url = '/about/'
-    weight = 30
+    weight = 40
 
 [Languages.ko-kr.params]
-  sitename = "RootLab"
+  sitename = "Nirvana"
   defaultColor = "light" # set color mode: dark, light, auto
   # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
   # the default value is set to 'auto'.
@@ -80,10 +85,10 @@ disqusShortname = ''
   # By default (or if nothing is specified), summary is used.
 
 [Languages.ko-kr.params.author]
-  avatar = "img/avatar.png" # put the file in assets folder; also ensure that image has same height and width
+  avatar = "" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-  intro = "RootLab"
-  name = "RootLab"
+  intro = "Nirvana"
+  name = "Nirvana"
   description = "꾸준함이 전부"
 
 # Allow to override webmanifest options
